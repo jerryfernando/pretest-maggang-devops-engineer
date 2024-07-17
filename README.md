@@ -12,14 +12,17 @@
 
 Cara pengerjaan, silahkan update file ini tulis jawabanya di bawah ini
 ## jawaban 
-###1.DevOps
+### 1.DevOps
 DevOps adalah sebuah pendekatan pengembangan perangkat lunak yang menggabungkan pengembangan (Development) dan operasi (Operations). Tujuan utamanya adalah meningkatkan kolaborasi antara tim pengembang dan tim operasional, mempercepat pengiriman perangkat lunak, meningkatkan kualitas produk, dan meningkatkan respon terhadap perubahan kebutuhan pasar.
 
 Prinsip utama DevOps meliputi:
 
 -Integrasi Berkelanjutan (Continuous Integration): Menggabungkan kode yang baru ditulis ke dalam repositori secara teratur dan melakukan pengujian otomatis.
+
 -Pengiriman Berkelanjutan (Continuous Delivery): Otomatisasi proses pengiriman perangkat lunak hingga siap untuk diproduksi.
+
 -Pengujian Otomatis (Automated Testing): Menggunakan alat otomatis untuk menguji kode baru guna memastikan tidak ada bug.
+
 -Pemantauan dan Logging (Monitoring and Logging): Memantau sistem untuk mendeteksi masalah dan log aktivitas untuk analisis.
 
 ### 2.Infrastructure
