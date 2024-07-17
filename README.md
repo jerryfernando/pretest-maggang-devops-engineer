@@ -29,36 +29,51 @@ Prinsip utama DevOps meliputi:
 Infrastructure dalam konteks teknologi informasi (TI) mengacu pada komponen fisik dan virtual yang mendukung pengoperasian, pengelolaan, dan penyediaan layanan TI. Ini mencakup:
 
 -Hardware: Server, storage, network devices.
+
 -Software: Sistem operasi, middleware, aplikasi.
+
 -Network: LAN, WAN, internet connectivity.
+
 -Data Centers: Fasilitas fisik yang menyimpan dan mengelola hardware dan software.
 
 ### 3.Server
 Server adalah sebuah sistem komputer yang menyediakan layanan kepada komputer lain (client) di dalam jaringan. Server bisa berupa hardware fisik atau virtual yang di-host di cloud. Implementasi server meliputi:
 
 -Web Server: Menyajikan halaman web kepada pengguna. Contoh: Apache, Nginx.
+
 -Database Server: Menyimpan dan mengelola data. Contoh: MySQL, PostgreSQL.
+
 -File Server: Menyediakan akses ke file melalui jaringan. Contoh: Samba, FTP.
+
 -Application Server: Menjalankan aplikasi server-side. Contoh: Tomcat, JBoss.
+
 -Mail Server: Mengelola email. Contoh: Postfix, Exchange Server.
 
 ### 4.Mengapa Server Dibutuhkan dalam Pengembangan Software
 Server sangat penting dalam pengembangan software karena:
 
 -Penyimpanan dan Pengelolaan Data: Menyimpan data dan memungkinkan akses yang efisien oleh aplikasi.
+
 -Menjalankan Aplikasi: Menyediakan lingkungan eksekusi untuk aplikasi backend.
+
 -Pengujian dan Integrasi: Menyediakan lingkungan untuk pengujian integrasi dan pengembangan berkelanjutan.
+
 -Kolaborasi Tim: Memfasilitasi kolaborasi dengan hosting alat pengembangan seperti repositori kode, CI/CD tools, dll.
+
 
 ### 5.Virtualisasi dan Container
 -Virtualisasi: Teknologi yang memungkinkan menjalankan beberapa sistem operasi virtual pada satu server fisik dengan membagi sumber daya hardware. 
 Contoh: VMware, Hyper-V.
+
 -Container: Teknologi yang memungkinkan paket aplikasi dan semua dependensinya menjadi satu unit yang dapat dijalankan secara konsisten di berbagai lingkungan. Contoh: Docker.
 
 ### 6.Mengapa Teknologi Container Sangat Populer
 -Portabilitas: Container dapat berjalan konsisten di berbagai lingkungan, dari pengembangan hingga produksi.
+
 -Efisiensi Sumber Daya: Container berbagi kernel sistem operasi, sehingga lebih ringan daripada mesin virtual.
+
 -Penggunaan yang Mudah: Alat seperti Docker menyediakan cara yang mudah untuk mengelola dan mengirimkan container.
+
 -Isolasi: Aplikasi di dalam container terisolasi satu sama lain dan dari host.
 
 ### 7.Orchestration Container System
@@ -67,7 +82,9 @@ Orchestration container system adalah alat yang mengotomatiskan penempatan, peng
 Contoh:
 
 -Kubernetes: Platform open-source untuk otomatisasi deployment, scaling, dan operasi container.
+
 -Docker Swarm: Orchestration tool dari Docker untuk mengelola cluster Docker.
+
 -Apache Mesos: Sistem manajemen cluster yang juga dapat mengelola container.
 
 Alat-alat ini membantu dalam mengelola lingkungan container yang besar dan kompleks, memungkinkan aplikasi berjalan dengan andal, terukur, dan mudah diatur.
