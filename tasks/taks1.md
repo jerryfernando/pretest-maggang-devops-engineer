@@ -76,12 +76,31 @@ app.get('/', function(req, res) {
     <html>
       <head>
         <title>Profile</title>
+        <style>
+          body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+          }
+          h1 {
+            color: #333;
+          }
+          h2 {
+            color: #555;
+          }
+          h5 {
+            color: #777;
+            max-width: 600px;
+            line-height: 1.6;
+          }
+        </style>
       </head>
       <body>
         <h1>JERI FERNANDO</h1>
         <h2>DEVOPS</h2>
         <h5>I'm a committed DevOps Engineer dedicated to creating efficient, automated, and secure development and production environments. With experience studying and applying devops knowledge.
-Fundamentally, I'm a bridge builder between development and operations teams, aiming to remove barriers and expedite software delivery. I'm an expert in CI/CD automation, infrastructure as code, and cloud infrastructure management</h5>
+        Fundamentally, I'm a bridge builder between development and operations teams, aiming to remove barriers and expedite software delivery. I'm an expert in CI/CD automation, infrastructure as code, and cloud infrastructure management</h5>
       </body>
     </html>
   `);
