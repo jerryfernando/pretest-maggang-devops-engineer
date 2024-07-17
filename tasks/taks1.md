@@ -78,12 +78,10 @@ app.get('/', function(req, res) {
         <title>Profile</title>
       </head>
       <body>
-        <h1>Profil</h1>
-        <p><strong>Nama:</strong> Nama Teman</p>
-        <p><strong>Domisili:</strong> Domisili Teman</p>
-        <p><strong>Asal:</strong> Asal Teman</p>
-        <p><strong>Tanggal Lahir:</strong> Tanggal Lahir Teman</p>
-        <p><strong>Lulusan:</strong> Lulusan Teman</p>
+        <h1>JERI FERNANDO</h1>
+        <h2>DEVOPS</h2>
+        <h5>I'm a committed DevOps Engineer dedicated to creating efficient, automated, and secure development and production environments. With experience studying and applying devops knowledge.
+Fundamentally, I'm a bridge builder between development and operations teams, aiming to remove barriers and expedite software delivery. I'm an expert in CI/CD automation, infrastructure as code, and cloud infrastructure management</h5>
       </body>
     </html>
   `);
