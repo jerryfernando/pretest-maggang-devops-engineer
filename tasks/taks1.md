@@ -1,4 +1,4 @@
-# Virtualization
+![3](https://github.com/user-attachments/assets/db9f0e93-1e3e-4d68-857d-85d51189a490)# Virtualization
 ubah hostname 
 ```
 hostnamectl set-hostname tabeldata.com
@@ -43,17 +43,6 @@ sudo systemctl enable nginx
 ```
 mkdir myapp
 cd myapp
-
-```
-
-```
-npm init -y
-
-
-```
-
-```
-npm install express
 
 ```
 buat file app.js
@@ -111,6 +100,18 @@ app.listen(80, () => console.log('Express server started successfully.'));
 
 
 ```
+```
+npm init -y
+
+
+```
+
+```
+npm install express
+
+```
+hasil ekstrak menghasilkan package.json
+![3](https://github.com/user-attachments/assets/9dae8c93-aa8d-4038-895e-ac3ff045014e)
 
 Jalankan server Express
 
@@ -118,6 +119,8 @@ Jalankan server Express
 sudo node app.js
 
 ```
+
+
 
 buat file konfigurasi nginx
 
